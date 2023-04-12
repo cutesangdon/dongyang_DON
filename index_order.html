@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>상품 주문서</h1>
+  <form>
+    <fieldset>
+      <legend>개인 정보</legend>
+      <ul>
+        <li>주문자 이름: <input type="text"></li>
+        <li>전화 번호: <input type="tel"></li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <legend>배송 정보</legend>
+      <ul>
+        <li>배송 옵션: <input type="radio" name="delivery">기존 배송지<input type="radio" name="delivery">새 배송지</li>
+        <li>주소: <input type="text"></li>
+        <li>요청사항: 
+          <datalist id="choices">
+            <option value="배송 전에 미리 연락 바랍니다"></option>
+            <option value="부재시 경비실에 맡겨주세요"></option>
+            <option value="부재시 전화 주시거나 문자 남겨주세요"></option>
+          </datalist>
+        </li>
+      </ul>
+      <input type="text" id="interest" list="choices">
+      
+    </fieldset>
+    <fieldset>
+      <legend>주문 정보</legend>
+      상품<br>
+      <input type="checkbox">방울 토마토 1kg <s>10000원</s> <b>8000원</b><input type="text">박스<br>
+      <input type="checkbox">방울 토마토 2kg <s>20000원</s> <b>16000원</b><input type="text">박스<br>
+      <input type="checkbox">방울 토마토 3kg <s>30000원</s> <b>24000원</b><input type="text">박스<br> 
+      <label>기타사항: <input type="text" size=""></label>
+    </fieldset>
+    <fieldset>
+      <legend>결제 수단</legend>
+      <ul>
+        <li><input type="radio" name="payment">계좌 이체</li>
+        <li><input type="radio" name="payment">카드 결제</li>
+        <li><input type="radio" name="payment">일반 결제</li>
+      </ul>
+    </fieldset>
+  </form>
+</body>
+</html>
