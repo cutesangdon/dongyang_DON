@@ -1,0 +1,76 @@
+@font-face {font-family: jua; src: url("BMJUA_ttf.ttf");}
+*{margin: 0 auto  ; padding: 0; box-sizing: border-box; font-family: jua;}
+a{
+  color: #585859;
+  text-decoration-line: none;
+  text-decoration: none;
+}
+a:hover{
+  color: #585859;
+}
+/*** 헤더 CSS ***/
+header{
+  width: 100%;
+  position: fixed; top: 0;
+  padding: 1.5%;
+  background-color: #8aabbf;
+}
+.Menu_List{
+  display: inline-block;
+}
+header a{
+  color: #f0f1f2;
+}
+
+body{
+  background-color: #f0f1f2;
+  padding-top: calc(37px + 1.5%);
+}
+#Main{
+  width: 80%;
+}
+.class{ 
+  display: block;
+  margin: 1.5%;
+  padding: 2.5%;
+}
+.class a{
+  border-bottom: #585859 2px solid;
+}
+fieldset{
+  margin: 0.5%;
+  padding: 2%;
+}
+dd{
+  margin-left: 1.5%;
+}
+figure{
+  display: inline-block;
+}
+img{
+  border: #585859 2px solid;
+}
+#sideMenu{
+  width: 10%;
+  min-width: 120px;
+  padding: 10px;
+  border: #585859 2px solid;
+  background-color: #bddef2;
+  position: fixed; top: 50%;
+  transform: translateY(-50%);
+  right: 2%;
+}
+#sideMenu ul li{
+  color: #585859;
+  list-style: none;
+}
+#sideMenu h2{
+  text-align: center;
+}
+#top_btn{
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #bddef2;  
+  position: fixed; bottom: 10%;
+  right: 2%;
+}

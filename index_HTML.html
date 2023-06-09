@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>HTML학습</title>
+</head>
+<header>
+  <div class="Menu_List"><a href="index.html"><h1 id="Main_Page" style="font-family: Arial;">MAIN PAGE</h1></a></div>
+  <div class="Menu_List"><a href="index_HTML.html"><h3 id="HTML">HTML</h3></a></li></div>
+  <div class="Menu_List"><a href="index_CSS.html"><h3 id="CSS">CSS</h3></a></div>
+</header>
+<body>
+  <div id="Main">
+    <div id="first_week" class="class">
+      <fieldset>
+        <legend>1주차 학습 내용</legend>
+        <h3>교과목 소개 및 강의 진행 설명</h3>
+        <p>- HTML과 CSS에 대한 간단한 개요</p>
+        <p>- 인터넷 역사 및 다양한 인터넷 서비스에 대한 학습[Tcp/IP, 프로토콜, HTTPS]</p>
+        <p>- 크롬 개발자 도구 [F12] 활용 학습<br>- 웹 에디터: Visaul Studio Code에 대한 설명</p>
+      </fieldset>
+    </div>
+    <div id="second_week" class="class">
+      <fieldset>
+        <legend>2주차 학습 내용</legend>
+        <h3>HTML5 개요 학습</h3>
+        <p>- 웹페이지의 기초가 되는 HTML의 기본 문서 구조 이해</p>
+        <p>- 웹 브라우저와 웹 편집기에 대한 학습</p>
+        <p>- 프론트엔드와 백엔드 관련 학습</p>
+      </fieldset>
+    </div>
+    <div id="third_week" class="class">
+      <fieldset>
+        <legend>3주차 학습 내용</legend>
+        <h3>HTML개발 환경 구축 및 실습</h3>
+        <p>- Visaul Studio Code 설치 및 실습</p>
+        <p>- VS Code 확장 프로그램 활용</p>
+        <ol>
+          <li> Live Server: VS Code에서 웹 개발 시에 변경사항을 바로 반영해주는 라이브 서버 지원</li>
+          <li> Live Preview: VS Code내에서 브라우저 미리 보기 기능</li>
+          <li> Auto Rename Tag: 여는 태그 또는 닫는 태그를 수정하면 쌍을 이루는 태그를 자동으로 수정</li>
+          <li> indent-rainbow: 들여쓰기의 상태 파악</li>
+        </ol><br> 
+        <p>- HTML문서 제작 실습[block 레벨, inline 레벨 태그, 목록 태그, 표 제작 실습]</p><br>
+        <ol>
+          <li>주요 block 레벨 태그</li>
+          <ul>
+            <li><h1>h1태그 (제목 태그 h1 ~ h6)</h1></li>
+            <li><p>p태그 (텍스트 태그)</p></li>
+            <li><pre>pre태그        (소스에 표시한 공백이 그대로 표시)</pre></li>
+            <li>hr 수평줄 태그</li>
+            <hr>
+          </ul>
+          <li>주요 inline 레벨 태그</li>
+          <ul>
+            <li><p><strong>strong강조체</strong>
+            <li><b>b강조체</b></li>
+            <li><em>em이탤릭체</em></li>  
+            <li><i>i단순이탤릭체</i></li>  
+            <li><q>q인용내용표시</q></p></li>
+          </ul><hr>
+          <li>목록 태그</li>
+          <dl>
+            <dt>1학년 1학기 주요 학습 내용</dt>
+            <dd>- 한글, PPT, EXCEL</dd>
+            <dd>- 웹 프로그래밍</dd>
+            <dd>- 자바 프로그래밍</dd>
+            <dd>- 컴퓨터 공학</dd>
+            <dt>1학년 2학기 주요 학습 내용</dt>
+            <dd>- 웹 서버 프로그래밍</dd>
+            <dd>- 웹 클라이언트 프로그래밍</dd>
+            <dd>- 파이썬 프로그래밍</dd>
+          </dl>
+          <li>표 제작</li>
+          <table border="1" style="float: left;">
+            <tr>
+              <th>이름</th>
+              <td>박상돈</td>
+              <th>연락처</th>
+              <td>010-7170-1594</td>
+            </tr>
+            <tr>
+              <th>주요 이력</th>
+              <td colspan="3">- 서울아이티고등학교 졸업<br>- 컴아트시스템 재직 중<br>- 동양미래대학교 재학 중</td>
+            </tr>
+          </table>
+        </ol>
+      </fieldset>
+    </div>
+    <div id="forth_week" class="class">
+      <fieldset>
+        <legend>4주차 학습 내용</legend>
+        <h3>이미지 태그 학습</h3>
+        <p>- img, figure, figcaption 활용</p>
+        <figure>
+          <img src="images/Test_1.jpg" alt="집근처냥이1" style="width: 90px; height: 160px;">
+          <figcaption>[집 근처 거주 중인 고양이_1]</figcaption>
+        </figure>
+        <figure>
+          <img src="images/Test_2.jpg" alt="집근처냥이2" style="width: 90px; height: 160px;">
+          <figcaption>[집 근처 거주 중인 고양이_2]</figcaption>
+        </figure>
+        <figure>
+          <img src="images/Test_3.jpg" alt="집근처냥이3" style="width: 140px; height: 100px;">
+          <figcaption>[집 근처 거주 중인 고양이_3]</figcaption>
+        </figure>
+        <figure>
+          <img src="images/Test_4.jpg" alt="집근처냥이4" style="width: 90px; height: 160px;">
+          <figcaption>[집 근처 거주 중인 고양이_4]</figcaption>
+        </figure>
+        <h3>링크 태그 학습</h3>
+        <p><a href="https://www.naver.com/" target="_blank">네이버 새 창으로 띄우기</a></p>
+        <p><a href="https://www.naver.com/" target="_self">네이버 현재 창에 띄우기</a></p>
+      </fieldset>
+    </div>
+    <div id="fifth_week" class="class">
+      <fieldset>
+        <legend>5주차 학습 내용</legend>
+        <h3>폼 제작 학습</h3>
+        <form>
+          <fieldset>
+            <legend>fieldset 사용</legend>
+            <h3>input type="text" + placeholder 활용</h3><input type="text" placeholder="Hello, world!!!"><br><br>
+            <h3>체크 박스 생성</h3>
+            <input type="checkbox" checked>체크 박스_1<br>
+            <input type="checkbox" checked>체크 박스_2<br>
+            <input type="checkbox" checked>체크 박스_3<br><br>
+            <h3>라디오 버튼 생성</h3>
+            <ul>
+              <li><input type="radio" name="radio_test">라디오 버튼_1</li>
+              <li><input type="radio" name="radio_test">라디오 버튼_2</li>
+              <li><input type="radio" name="radio_test" checked>checked 활용</li>
+            </ul><br>
+            <h3>textarea활용 <textarea cols="30" rows="3"></textarea></h3><br>  
+            <h3>드롭다운 메뉴 생성</h3>
+            <select>
+              <option value="mon">컴퓨터활용실습</option>
+              <option value="tue">문화콘텐츠와창의성</option>
+              <option value="wed" selected>웹프로그래밍기초</option>
+              <option value="thu">자바프로그래밍</option>
+              <option value="fri">컴퓨터공학기초</option>
+            </select><br><br>
+            <input type="button" value="버튼 생성">
+          </fieldset>
+        </form>
+      </fieldset>
+    </div>
+    <div id="sixth_week" class="class">
+      <fieldset>
+        <legend>6주차 학습 내용</legend>
+        <h3>Github 웹 호스팅</h3>
+        <p>제작자: 깃허브 주소</p>
+        <p><a href="https://github.com/cutesangdon/dongyang_DON">웹프로그래밍 과제 관련</a></p>
+      </fieldset>
+    </div>
+  </div>
+  <div id="sideMenu">
+    <h2>목차</h2>
+    <ul>
+      <li><a href="#first_week">1주차 학습 내용</a></li>
+      <li><a href="#second_week">2주차 학습 내용</a></li>
+      <li><a href="#third_week">3주차 학습 내용</a></li>
+      <li><a href="#forth_week">4주차 학습 내용</a></li>
+      <li><a href="#fifth_week">5주차 학습 내용</a></li>
+      <li><a href="#sixth_week">6주차 학습 내용</a></li>
+    </ul>
+  </div>
+  <div id="top_btn"><a href="#">TOP</a></div>
+</body>
+</html>

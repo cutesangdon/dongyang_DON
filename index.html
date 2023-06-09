@@ -1,66 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Main Page</title>
 </head>
-
+<header>
+  <div class="Menu_List"><a href="index.html"><h1 id="Main_Page" style="font-family: Arial;">MAIN PAGE</h1></a></div>
+  <div class="Menu_List"><a href="index_HTML.html"><h3 id="HTML">HTML</h3></a></li></div>
+  <div class="Menu_List"><a href="index_CSS.html"><h3 id="CSS">CSS</h3></a></div>
+</header>
 <body>
-  <h1>제목태그</h1>
-  <h2>제목태그</h2>
-  <h3>제목태그</h3>
-  <h4>제목태그</h4>
-  <h5>제목태그</h5>
-  <h6>제목태그</h6>
-  <hr>
-  <table border="1">
-    <tr>
-      <th>이름</th>
-      <td width="300px"></td>
-      <th>연락처</th>
-      <td>내용3</td>
-    </tr>
-    <tr>
-      <th>주소</th>
-      <td colspan="3"></td>
-    </tr>
-    <tr>
-      <th>자기소개</th>
-      <td colspan="3"></td>
-    </tr>
-  </table>
-  <ul>
-    <li>1일차
-      <ol type="I">
-        <li>first</li>
-        <li>second</li>
-      </ol>
-    </li>
-    <li>2일차 
-      <ol type="I" start="3">
-        <li>third</li>
-        <li>forth</li>
-        <li>fifth</li>
-      </ol>
-    </li>
-  </ul>
-  <p>꿀팁: Ctrl + K, Ctrl + F, 들여쓰기 수정</p>
-  <!-- <p>텍스트</p>
-  <div>블록태그</div>
-  <span>css적용 시 사용</span>
-  <p><em>이탤릭체</em></p>
-  <p><b>강조</b></p>
-  <p><strong>강조</strong></p>
-  <blockquote>인용문</blockquote>
-  <pre>소스코드 표시
-    인라인 레벨 코드: strong, b, em, i
-  </pre>
-  <p><u><s><mark><em>테스트 텍스트</em></mark></s></u></p>
-  <p><s>취소선</s><u>밑줄</u></p> -->
+  <div id="Main">
+    <div id="start" class="class">
+      <fieldset>
+        <legend>시작하며</legend>
+        <p>페이지 기본 기능<br>
+          1. 상단 헤더 메뉴: 페이지 이동 기능<br>
+          2. 우측 목차 메뉴: 클릭 시 해당 위치로 이동함<br>
+          3. 우하단 TOP 버튼: 페이지 최상단 이동 기능</p><br>
+        <p>페이지 색상: <a href="https://color.adobe.com/ko/trends/Graphic-design" target="_blank">어도비 색상 팔레트 생성기 - 트렌드 항목 사용</a></p>
+        <p>폰트 사용: <a href="http://font.woowahan.com/jua/" target="_blank">배달의 민족 - 주아체 적용</a></p>
+      </fieldset>
+      <fieldset>
+        <legend>제작 이슈</legend>
+        <p>- 헤더 제작: ul li 적용 후 float: left 적용 후 헤더 영역 문제 발생</p>
+        <p>> div로 변경 후 해결</p><br>
+        <p>- 헤더 고정: position: fixed; top: 0; 로 고정 후 body 콘텐츠와 겹치는 현상</p>
+        <p>> body에 padding-top: calc(37px + 1.5%); (헤더의 h1 크기 + 헤더의 패딩)을 추가하여 해결</p><br>
+        <p>- 3주차 목록 태그: 설명 부분 들여쓰기 적용 안됨</p>
+        <p>> CSS dd부분 margin-left 추가</p><br>
+        <p>- 3주차 표 태그: 의도와 다르게 가운데 정렬 됨</p>
+        <p>> tabel 태그에 style="float: left;" 추가 하여 해결</p>
+      </fieldset>
+    </div>
 </body>
-
 </html>
