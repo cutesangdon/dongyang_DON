@@ -17,43 +17,116 @@
     <div id="seventh_week" class="class">
       <fieldset>
         <legend>7주차 학습 내용</legend>
-        
+        <h3>CSS의 개요 및 기본 구조 학습</h3>
+        <p>- CSS 삽입 방법 학습</p>
+        <ol>
+          <li>내부 스타일 시트: HTML문서 내에서 스타일을 정의</li>
+          <li>외부 스타일 시트: 별도의 CSS파일을 생성하여 HTML 문서와 연결 후 사용 (현재 페이지에 적용)</li>
+          <li>인라인 스타일: HTML문서 내에 적용할 대상에 직접 표시 (현재 페이지에 일부 적용)</li>
+        </ol><br>
+        <p>- CSS 선택자 학습</p>
+        <ol>
+          <li>전체 선택자: CSS문서 내에 * 선택자를 사용하여 페이지 내에 모든 요소에 스타일을 적용</li>
+          <li>태그 선택자: HTML의 태그를 선택자로 사용하여 해당 태그에 스타일을 적용</li>
+          <li>Class 선택자: 요소의 Class를 선택자로 사용하여 해당 태그에 스타일을 적용</li>
+          <li>ID 선택자: 요소의 ID를 선택자로 사용하여 해당 태그에 스타일을 적용</li>
+        </ol><br>
+        <p>- 캐스캐이딩의 의미와 원칙에 대해 학습</p>
+        <p>- 선택자 우선순위에 대해 학습</p>
+        <ol>
+          <li>!important 적용</li>
+          <li>인라인 스타일 적용</li>
+          <li>아이디 선택자</li>
+          <li>클래스 선택자</li>
+          <li>태그 선택자</li>
+          <li>전체 선택자</li>
+        </ol>
       </fieldset>
     </div>
-    <div id="ninth_week" class="class">
+    <div class="class">
+      <fieldset>
+        <legend>8주차 학습 내용</legend>
+        <h2>중간고사 기간</h2>
+      </fieldset>
+    </div>
+    <div id="ninth_week" class="class" style="background-color: beige;">
       <fieldset>
         <legend>9주차 학습 내용</legend>
-        
+        <h3>CSS 문서 적용 실습</h3>
+        <p>- 주요 CSS 텍스트 적용</p>
+        <ol>
+          <li>폰트 지정: 현재 웹 문서 전체 주아체 적용 중</li>
+          <li>폰트 사이즈: <span style="font-size: large;">large </span><span style="font-size: medium;">medium </span><span style="font-size: small;">small </span></li>
+          <li>폰트 스타일: <span style="font-style: italic;">이탤릭체 적용, </span><span style="color: brown;">폰트 색상 변경</span></li>
+          <li>텍스트 데코레이션: <sapn style="text-decoration: underline;">폰트 밑줄</sapn></li>
+          <li>텍스트 그림자: <span style="text-shadow: 5px 5px 5px red;">그림자 적용</span></li>
+        </ol>
+        <p>- 배경 색상 적용: 9주차 배경색 beige 적용</p>
       </fieldset>
     </div>
     <div id="tenth_week" class="class">
       <fieldset>
         <legend>10주차 학습 내용</legend>
-        
+        <h3>박스 모델 관련 학습</h3>
+        <p>- 박스 모델의 속성: margin, border, padding, contents의 이해</p>
+        <p>> margin: 외부 요소와의 간격 설정</p>
+        <p>> padding: 박스 모델의 컨텐츠와 테두리 간의 간격 설정</p>
+        <p>> border: 박스 모델의 테두리 설정</p><br>
+        <p>- 박스 모델 생성 및 속성 지정</p>
+        <div class="tenth_div" style="width: 48px; height: 48px;">48px</div>
+        <div class="tenth_div" style="width: 44px; height: 44px;">44px</div>
+        <div class="tenth_div" style="width: 40px; height: 40px;">40px</div>
+        <div class="tenth_div" style="width: 36px; height: 36px;">36px</div>
+        <h3>디스플레이 방식 학습</h3>
+        <p>- 인라인 레벨 요소: 수평방향으로 디스플레이되며 줄을 차지 하지 않는 요소</p>
+        <p>인라인 레벨 요소 종류 > span, a, img, input, select</p>
+        <p>- 블록 레벨 요소: 요소 삽입 시 한줄 씩 차지하며 수직 방향으로 디스플레이</p>
+        <p>블록 레벨 요소 종류: div, p, h1 ~ h6</p>
+
       </fieldset>
     </div>
     <div id="eleventh_week" class="class">
       <fieldset>
         <legend>11주차 학습 내용</legend>
-        
+        <h3>CSS 포지셔닝&속성 관련 학습</h3>
+        <p>- float 속성: 좌,우 정렬 지정</p>
+        <p>- clear 속성: float 속성 적용 후 더 이상 float 속성의 영향을 받지 않도록 설정</p>
+        <p>- position 속성: 요소의 위치를 설정 [static, relative, absolute, fixed</p>
+        <p>> 헤더와 우측 목차 position: fixed로 설정</p>
       </fieldset>
     </div>
     <div id="twelfth_week" class="class">
       <fieldset>
         <legend>12주차 학습 내용</legend>
+        <h3>웹 문서 시멘틱 태그 학습</h3>
+        <p>- 시멘틱 태그 종류: header, body, article, aside, footer 등</p>
+        <h3>웹 문서 멀티미디어 적용</h3>
+        <video controls style="width: 640px; height: 480px;">
+          <source src="media/raindrops_on_leaves.mp4" type="video/mp4">
+        </video>
         
       </fieldset>
     </div>
     <div id="thirteenth_week" class="class">
       <fieldset>
         <legend>13주차 학습 내용</legend>
-        
+        <h3>연결 선택자, 속성 선택자, 가상 클래스</h3>
+        <p>- 연결 선택자: 상위 요소 뒤에 하위 요소를 넣어 스타일 적용 [예: #example > p {color: red;}]</p>
+        <p>- 속성 선택자: 지정한 요소 중 해당 속성을 가진 요소만 스타일 적용[예: a[href] {background: red;}]</p>
+        <p>- 가상 클래스: 사용자 동작에 따라 반응</p>
+        <div id="hover">[마우스를 올려보세요]</div>
       </fieldset>
     </div>
     <div id="fourteenth_week" class="class">
       <fieldset>
         <legend>14주차 학습 내용</legend>
-        
+        <h3>반응형웹과 미디어 쿼리 학습</h3>
+        <p>- 반응형 웹 디자인 방법</p>
+        <p>> 가변 그리드 시스템 이용</p>
+        <p>> 미디어 쿼리 이용</p>
+        <p>> FlexBox 이용</p>
+        <p>> Grid 이용</p>
+        <p>- 미디어 쿼리: 웹 페이지가 사용되는 장치 유형에 따라 CSS를 다르게 적용하는 기술</p>
       </fieldset>
     </div>
   </div>

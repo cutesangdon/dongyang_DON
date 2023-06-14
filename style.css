@@ -50,6 +50,16 @@ figure{
 img{
   border: #585859 2px solid;
 }
+.tenth_div{
+  border: #585859 1px solid;
+  display: inline-block;
+}
+#multi{
+  column-count: 3;
+}
+#hover:hover{
+  background-color: #8aabbf;
+}
 #sideMenu{
   width: 10%;
   min-width: 120px;
